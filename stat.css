@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@800&family=Playpen+Sans:wght@500&display=swap');
+
+*{
+    padding: 0vw;
+    margin: 0vw;
+}
+
+.mc{
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+
+.navbar{
+    background-color: antiquewhite;
+    border: 0.1vw solid black;
+    width: 7vw;
+    height: 99.7vh;
+}
+
+#linkgroup1{
+    text-align: center;
+}
+
+.l1 img{
+    background-color: white;
+    margin: 0.5vw;
+    border: 0.1vw solid black;
+    border-radius: 20vw;
+    width: 4vw;
+    display: inline;
+    transition: 0.4s;
+}
+
+.l1 :hover{
+    transition: 0.4s;
+    font-size: larger;
+    padding: 0.3vw;
+}
+
+.logo img{
+    margin: 0.9vw;
+    border: 0.1vw solid black;
+    border-radius: 120vw;
+    width: 5vw;
+    display: inline;
+}
+
+#logo{
+    text-align: center;
+}
+
+.intro{
+    font-size: 0.9vw;
+    background-color: blanchedalmond;
+    position: absolute;
+    border: 0.1vw solid black;
+    border-radius: 1vw;
+    left: 10%;
+    top: 10%;
+    width: 50vw;
+    padding: 2vw;
+    font-family: 'Playpen Sans', cursive;
+}
+
+.stat1 img{
+    position: absolute;
+    width: 25vw;
+    left: 15%;
+    top: 32%;
+}
+
+.stat2 img{
+    position: absolute;
+    width: 25vw;
+    left: 15%;
+    top: 65%;
+}
+
+.minfos{
+    font-size: 0.914vw;
+    background-color: blanchedalmond;
+    border: 0.1vw solid black;
+    border-radius: 2vw;
+    position: absolute;
+    width: 50vw;
+    padding: 2vw;
+    left: 45%;
+    bottom: 5%;
+    font-family: 'Playpen Sans', cursive;
+}
+
+.stat3 img{
+    position: absolute;
+    width: 25vw;
+    right: 5%;
+    top: 35%;
+}
+
+.stat4 img{
+    position: absolute;
+    width: 25vw;
+    right: 5%;
+    top: 3%;
+}
+
+.Lm a{
+    
+    color: azure;
+    background-color: black;
+    border-radius: 2vw;
+    padding: 2vw;
+    border: 0.1vw solid black;
+    position: absolute;
+    font-size: 3vw;
+    text-decoration: none;
+    left: 47.5%;
+    top: 40%;
+    transition: 0.4s;
+}
+.Lm :hover{
+    transition: 0.4s;
+    padding: 3vw;
+}
+
+.copyright p{
+    padding: 0.2vw;
+    background-color: blanchedalmond;
+    position: absolute;
+    border: 0.1vw solid black;
+    font-size: 0.7vw;
+    left: 10%;
+    bottom: 0%;
+}

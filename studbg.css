@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@800&family=Playpen+Sans:wght@500&display=swap');
+
+*{
+    padding: 0vh;
+    margin: 0vh;
+}
+
+.mc{
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+
+.navbar{
+    background-color: antiquewhite;
+    border: 0.1vw solid black;
+    width: 7vw;
+    height: 99.7vh;
+}
+
+#linkgroup1{
+    text-align: center;
+}
+
+.l1 img{
+    background-color: white;
+    margin: 0.5vw;
+    border: 0.1vw solid black;
+    border-radius: 20vw;
+    width: 4vw;
+    display: inline;
+    transition: 0.4s;
+}
+
+.l1 :hover{
+    transition: 0.4s;
+    font-size: larger;
+    padding: 0.3vw;
+}
+
+.logo img{
+    margin: 0.9vw;
+    border: 0.1vw solid black;
+    border-radius: 120vw;
+    width: 5vw;
+    display: inline;
+}
+
+#logo{
+    text-align: center;
+}
+
+.studbg{
+    background-color: antiquewhite;
+    padding: 2vw;
+    border: 0.1vw solid black;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    font-family: 'Playpen Sans', cursive;
+    text-align: center;
+}
+
+.contents{
+    padding: 1vw;
+    text-align: center;
+    background-color: antiquewhite;
+    position: absolute;
+    border: 0.1vw solid black;
+    left: 35%;
+    top: 10%;
+    height: 23vw;
+    width: 55vw;
+    font-family: 'Playpen Sans', cursive;
+}
+
+.contents p{
+    font-size: 1.5vw;
+}
+
+.contents h1{
+    font-size: 2.5vw;
+}
+
+.studicon img{
+    position: absolute;
+    left: 11%;
+    top: 55%;
+    width: 20vw;
+}
+
+.studicon2 img{
+    position: absolute;
+    left: 45%;
+    top: 65%;
+    width: 35vw;
+}
+
+.copyright p{
+    padding: 0.2vw;
+    background-color: blanchedalmond;
+    position: absolute;
+    border: 0.1vw solid black;
+    font-size: 0.7vw;
+    left: 10%;
+    bottom: 0%;
+}

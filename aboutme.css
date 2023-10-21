@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@800&family=Playpen+Sans:wght@500&display=swap');
+
+*{
+    padding: 0vh;
+    margin: 0vh;
+}
+
+.mc{
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+
+.navbar{
+    background-color: antiquewhite;
+    border: 0.1vw solid black;
+    width: 7vw;
+    height: 99.7vh;
+}
+
+#linkgroup1{
+    text-align: center;
+}
+
+.l1 img{
+    background-color: white;
+    margin: 0.5vw;
+    border: 0.1vw solid black;
+    border-radius: 20vw;
+    width: 4vw;
+    display: inline;
+    transition: 0.4s;
+}
+
+.l1 :hover{
+    transition: 0.4s;
+    font-size: larger;
+    padding: 0.3vw;
+}
+
+.logo img{
+    margin: 0.9vw;
+    border: 0.1vw solid black;
+    border-radius: 120vw;
+    width: 5vw;
+    display: inline;
+}
+
+#logo{
+    text-align: center;
+}
+
+.aboutme{
+    position: absolute;
+    left: 13%;
+    top: 5%;
+    width: 80vw;
+    font-size: 2vw;
+    font-family: 'Playpen Sans', cursive;
+}
+
+.aboutme img{
+    border: 0.1vw solid black;
+    border-radius: 2vw;
+}
+ .aboutme p{
+    border-radius: 1vw;
+    padding: 1vw;
+    background-color: antiquewhite;
+    border: 0.1vw;
+ }
+
+ .linkback a{
+    border-radius: 3vw;
+    background-color: black;
+    color: aliceblue;
+    padding: 2vw;
+    border: 0.01vw solid black;
+    font-size: 2vw;
+    position: absolute;
+    left: 35%;
+    top: 15%;
+    font-family: 'Playpen Sans', cursive;
+    text-decoration: none;
+    width: 10vw;
+    text-align: center;
+    transition: 0.4s;
+ }
+
+ .linkback a:hover{
+    transition: 0.4s;
+    padding: 2.5vw;
+    font-size: 2.5vw;
+ }
+
+ .copyright p{
+    padding: 0.2vw;
+    background-color: blanchedalmond;
+    position: absolute;
+    border: 0.1vw solid black;
+    font-size: 0.7vw;
+    left: 10%;
+    bottom: 0%;
+}
