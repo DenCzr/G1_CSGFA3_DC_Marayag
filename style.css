@@ -51,12 +51,16 @@
 
 .head h1{
     text-transform: uppercase;
-    color: rgb(241, 196, 72);
-    font-size: 5vw;
+    color: rgb(104, 91, 54);
+    font-size: 4vw;
     position: absolute;
-    left: 22%;
+    left: 10%;
     top: 25%;
     font-family: 'Playpen Sans', cursive;
+}
+
+.head span{
+    color: blanchedalmond;
 }
 
 .head a{
@@ -67,8 +71,8 @@
     padding: 1vw;
     border: 0.1vw solid black;
     position: absolute;
-    left: 50%;
-    top: 45%;
+    left: 35%;
+    top: 40%;
     font-family: 'Playpen Sans', cursive;
     transition: 0.4;
 }
