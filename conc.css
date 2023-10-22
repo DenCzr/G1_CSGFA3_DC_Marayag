@@ -49,55 +49,26 @@
     text-align: center;
 }
 
-.studbg{
-    background-color: antiquewhite;
+.Conc{
     padding: 2vw;
     border: 0.1vw solid black;
+    border-radius: 1.5vw;
+    background-color: blanchedalmond;
     position: absolute;
-    left: 10%;
-    top: 10%;
-    font-family: 'Playpen Sans', cursive;
+    left: 12%;
+    top: 25%;
+    width: 80vw;
     text-align: center;
-    width: 20vw;
 }
 
-.studbg p{
-    font-size: 1vw;
-}
-
-.contents{
-    padding: 1vw;
-    text-align: center;
-    background-color: antiquewhite;
-    position: absolute;
-    border: 0.1vw solid black;
-    left: 35%;
-    top: 10%;
-    height: 25vw;
-    width: 55vw;
+.Conc h1{
     font-family: 'Playpen Sans', cursive;
+    font-size: 5vw;
 }
 
-.contents p{
-    font-size: 1vw;
-}
-
-.contents h1{
-    font-size: 1.6vw;
-}
-
-.studicon img{
-    position: absolute;
-    left: 13%;
-    top: 63%;
-    width: 15vw;
-}
-
-.Histogram img{
-    position: absolute;
-    left: 50%;
-    top: 68%;
-    width: 30vw;
+.Conc p{
+    font-family: 'Playpen Sans', cursive;
+    font-size: 1.3vw;
 }
 
 .copyright p{
@@ -108,4 +79,35 @@
     font-size: 0.7vw;
     left: 10%;
     bottom: 0%;
+}
+
+.img1 {
+    top: 3%;
+    position: absolute;
+    left: 20%;
+}
+
+.img2 {
+    position: absolute;
+    right: 10%;
+    top: 3%;
+}
+
+.lm a{
+    color: azure;
+    background-color: black;
+    border-radius: 2vw;
+    padding: 2vw;
+    border: 0.1vw solid black;
+    position: absolute;
+    font-size: 3vw;
+    text-decoration: none;
+    left: 44%;
+    top: 3%;
+    transition: 0.4s;
+}
+
+.lm :hover{
+    transition: 0.4s;
+    padding: 3vw;
 }
